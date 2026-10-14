@@ -1,0 +1,403 @@
+{
+  "content": {
+    "brandName": "КАФЕ",
+    "brandTagline": "Crafted burgers & smoke",
+    "heroEmoji": "🍔",
+    "heroTitle": "КАФЕ",
+    "heroText": "Сочные бургеры ручной работы, томлёное мясо и дымный аромат — в самом сердце города",
+    "phone": "+7 (999) 123-45-67",
+    "phoneNote": "Звонки с 9:00 до 23:00",
+    "address": "ул. Пекарная, д. 12",
+    "addressNote": "Москва, рядом с метро «Сдобная»",
+    "hours": "09:00 — 23:00",
+    "hoursNote": "Ежедневно, без выходных",
+    "social": [
+      {
+        "name": "Max",
+        "icon": "fa-solid fa-m",
+        "url": "https://max.ru/sushibulki"
+      },
+      {
+        "name": "Telegram",
+        "icon": "fa-brands fa-telegram",
+        "url": "https://t.me/sushibulki"
+      },
+      {
+        "name": "Instagram",
+        "icon": "fa-brands fa-instagram",
+        "url": "https://instagram.com/sushibulki"
+      }
+    ],
+    "deliveryCost": "250₽ (бесплатно от 1500₽)",
+    "deliveryTime": "35-45 минут",
+    "minDeliveryHours": 1,
+    "banners": [
+      {
+        "tag": "Хит",
+        "emoji": "🍔",
+        "title": "Дабл Чиз Блю",
+        "desc": "Две сочные котлеты, сыр с голубой плесенью, хрустящий лук фри",
+        "media": "https://cdn.gptunnel.ai/dl/6ace7f7667e11300018a0e86/codeblock/2026-10/6acec3add00ab81b9634383c.webp",
+        "mediaType": "image"
+      },
+      {
+        "tag": "Акция",
+        "emoji": "⏰",
+        "title": "Счастливые часы",
+        "desc": "С 14:00 до 17:00 скидка 15% на всё меню"
+      },
+      {
+        "tag": "Новинка",
+        "emoji": "🥩",
+        "title": "Стейк Рибай на углях",
+        "desc": "Томлёное мясо с дымком и соусом барбекю"
+      }
+    ],
+    "bannerInterval": 4,
+    "promos": [
+      {
+        "tag": "-20%",
+        "title": "Скидка на первый заказ",
+        "desc": "Промокод BULKA20 на любой заказ от 700₽"
+      },
+      {
+        "tag": "1+1",
+        "title": "Вторая шаурма в подарок",
+        "desc": "При заказе двух шаурм — третья бесплатно"
+      },
+      {
+        "tag": "🚚",
+        "title": "Бесплатная доставка",
+        "desc": "При заказе от 1500₽ доставка не оплачивается"
+      }
+    ],
+    "shareSocials": [
+      "whatsapp",
+      "telegram",
+      "vk",
+      "email"
+    ],
+    "telegramBotToken": "",
+    "telegramChatId": ""
+  },
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Бургеры",
+      "icon": "fa-burger",
+      "emoji": "🍔",
+      "img": "https://loremflickr.com/400/400/burger,cheeseburger"
+    },
+    {
+      "id": "combo",
+      "name": "Комбо",
+      "icon": "fa-box",
+      "emoji": "🍟",
+      "img": "https://loremflickr.com/400/400/burgercombo,meal"
+    },
+    {
+      "id": "sides",
+      "name": "Закуски",
+      "icon": "fa-utensils",
+      "emoji": "🧀",
+      "img": "https://loremflickr.com/400/400/frenchfries,snack"
+    },
+    {
+      "id": "sauces",
+      "name": "Соусы",
+      "icon": "fa-pepper-hot",
+      "emoji": "🌶️",
+      "img": "https://loremflickr.com/400/400/sauce,dip"
+    },
+    {
+      "id": "drinks",
+      "name": "Напитки",
+      "icon": "fa-mug-saucer",
+      "emoji": "🥤",
+      "img": "https://loremflickr.com/400/400/lemonade,drink,beverage"
+    },
+    {
+      "id": "sweets",
+      "name": "Десерты",
+      "icon": "fa-cookie",
+      "emoji": "🍩",
+      "img": "https://loremflickr.com/400/400/dessert,milkshake"
+    },
+    {
+      "id": "cat_1791997999428",
+      "name": "Супы",
+      "icon": "fa-utensils",
+      "emoji": "🍽️",
+      "img": "https://loremflickr.com/400/400/food"
+    },
+    {
+      "id": "cat_1791998019960",
+      "name": "Салаты",
+      "icon": "fa-utensils",
+      "emoji": "🍽️",
+      "img": "https://loremflickr.com/400/400/food"
+    },
+    {
+      "id": "cat_1791998024755",
+      "name": "Десерты",
+      "icon": "fa-utensils",
+      "emoji": "🍽️",
+      "img": "https://loremflickr.com/400/400/food"
+    },
+    {
+      "id": "cat_1791998025940",
+      "name": "Напитки",
+      "icon": "fa-utensils",
+      "emoji": "🍽️",
+      "img": "https://loremflickr.com/400/400/food"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "cat": "burgers",
+      "name": "Классический чизбургер",
+      "desc": "Говяжья котлета, чеддер, маринованный огурец, соус",
+      "weight": "260 г",
+      "price": 259,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/classicburger,cheeseburger"
+    },
+    {
+      "id": 2,
+      "cat": "burgers",
+      "name": "Дабл Чиз Блю",
+      "desc": "Две сочные котлеты, сыр с голубой плесенью, хрустящий лук фри",
+      "weight": "360 г",
+      "price": 379,
+      "image": null,
+      "img": "https://cdn.gptunnel.ai/dl/6ace7f7667e11300018a0e86/codeblock/2026-10/6acec3add00ab81b9634383c.webp"
+    },
+    {
+      "id": 3,
+      "cat": "burgers",
+      "name": "Бекон барбекю бургер",
+      "desc": "Котлета, хрустящий бекон, лук фри, соус барбекю",
+      "weight": "340 г",
+      "price": 349,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/baconburger,bbq"
+    },
+    {
+      "id": 4,
+      "cat": "burgers",
+      "name": "Острый бургер Халапеньо",
+      "desc": "Котлета, перец халапеньо, сыр пеппер джек, спайси соус",
+      "weight": "310 г",
+      "price": 319,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/spicyburger,jalapeno"
+    },
+    {
+      "id": 5,
+      "cat": "burgers",
+      "name": "Вег-бургер с нутом",
+      "desc": "Котлета из нута, авокадо, свежие овощи, соус тахини",
+      "weight": "270 г",
+      "price": 289,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/veggieburger,chickpea"
+    },
+    {
+      "id": 6,
+      "cat": "burgers",
+      "name": "Бургер с грибами и грюйером",
+      "desc": "Котлета, жареные шампиньоны, расплавленный грюйер",
+      "weight": "300 г",
+      "price": 339,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/mushroomburger,gruyere"
+    },
+    {
+      "id": 7,
+      "cat": "combo",
+      "name": "Комбо \"Классика\"",
+      "desc": "Чизбургер, картофель фри, напиток на выбор",
+      "weight": "~650 г",
+      "price": 449,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/burgercombo,meal"
+    },
+    {
+      "id": 8,
+      "cat": "combo",
+      "name": "Комбо \"Двойной кач\"",
+      "desc": "Дабл Чиз Блю, большой фри, милкшейк",
+      "weight": "~850 г",
+      "price": 599,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/doubleburgercombo"
+    },
+    {
+      "id": 9,
+      "cat": "combo",
+      "name": "Детское комбо",
+      "desc": "Мини-бургер, маленький фри, сок",
+      "weight": "~400 г",
+      "price": 329,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/kidsmeal,burger"
+    },
+    {
+      "id": 10,
+      "cat": "sides",
+      "name": "Картофель фри",
+      "desc": "Хрустящий картофель фри с морской солью",
+      "weight": "150 г",
+      "price": 149,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/frenchfries"
+    },
+    {
+      "id": 11,
+      "cat": "sides",
+      "name": "Луковые кольца",
+      "desc": "Хрустящие кольца в панировке",
+      "weight": "160 г",
+      "price": 169,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/onionrings"
+    },
+    {
+      "id": 12,
+      "cat": "sides",
+      "name": "Куриные наггетсы",
+      "desc": "Нежное куриное филе в хрустящей панировке, 6 шт",
+      "weight": "180 г",
+      "price": 219,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/chickennuggets"
+    },
+    {
+      "id": 13,
+      "cat": "sides",
+      "name": "Начос с сырным соусом",
+      "desc": "Кукурузные чипсы, расплавленный сыр, джалапеньо",
+      "weight": "200 г",
+      "price": 239,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/nachos,cheese"
+    },
+    {
+      "id": 14,
+      "cat": "sauces",
+      "name": "Соус барбекю",
+      "desc": "Классический дымный соус барбекю",
+      "weight": "30 г",
+      "price": 39,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/bbqsauce"
+    },
+    {
+      "id": 15,
+      "cat": "sauces",
+      "name": "Соус чесночный",
+      "desc": "Нежный соус на основе сметаны и чеснока",
+      "weight": "30 г",
+      "price": 39,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/garlicsauce"
+    },
+    {
+      "id": 16,
+      "cat": "sauces",
+      "name": "Острый соус чили",
+      "desc": "Жгучий соус с перцем чили",
+      "weight": "30 г",
+      "price": 39,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/chilisauce"
+    },
+    {
+      "id": 17,
+      "cat": "drinks",
+      "name": "Лимонад домашний",
+      "desc": "Лимон, мята, имбирь",
+      "weight": "400 мл",
+      "price": 159,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/lemonade"
+    },
+    {
+      "id": 18,
+      "cat": "drinks",
+      "name": "Милкшейк ванильный",
+      "desc": "Классический ванильный милкшейк со взбитыми сливками",
+      "weight": "350 мл",
+      "price": 219,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/milkshake,vanilla"
+    },
+    {
+      "id": 19,
+      "cat": "drinks",
+      "name": "Кола классическая",
+      "desc": "Освежающий газированный напиток",
+      "weight": "400 мл",
+      "price": 119,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/cola,soda"
+    },
+    {
+      "id": 20,
+      "cat": "drinks",
+      "name": "Айс-чай с персиком",
+      "desc": "Холодный чай с персиковым сиропом",
+      "weight": "400 мл",
+      "price": 169,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/icedtea,peach"
+    },
+    {
+      "id": 21,
+      "cat": "sweets",
+      "name": "Чизкейк Нью-Йорк",
+      "desc": "Классический нежный чизкейк",
+      "weight": "140 г",
+      "price": 229,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/cheesecake"
+    },
+    {
+      "id": 22,
+      "cat": "sweets",
+      "name": "Шоколадный брауни",
+      "desc": "Тёплый брауни с орехами и шоколадом",
+      "weight": "130 г",
+      "price": 199,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/brownie,chocolate"
+    },
+    {
+      "id": 23,
+      "cat": "sweets",
+      "name": "Донат глазированный",
+      "desc": "Воздушный донат с шоколадной глазурью",
+      "weight": "90 г",
+      "price": 149,
+      "image": null,
+      "img": "https://loremflickr.com/300/300/donut,glazed"
+    }
+  ],
+  "design": {
+    "font": "'Plus Jakarta Sans', sans-serif",
+    "fontColor": "#f5f1ea",
+    "fontSize": "127",
+    "imageSize": 72,
+    "bgColor": "#161412",
+    "bgImage": null,
+    "accentColor": "#ff6a00",
+    "logo": null,
+    "catButtonBg": "#211d1a",
+    "catButtonColor": "#f5f1ea",
+    "quickButtonBg": "#211d1a",
+    "quickButtonColor": "#f5f1ea",
+    "headingScale": "70",
+    "bodyScale": 100
+  }
+}
